@@ -1,0 +1,37 @@
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>ขอบพระคุณ! ได้มีการรับการสั่งซื้อของคุณแล้ว!</title>
+		<meta name="viewport" content="width=320">
+		<meta name="MobileOptimized" content="width=320">
+		<link media="all" rel="stylesheet" type="text/css" href="css/order-style.css">
+		<script type="text/javascript" src="js/jquery.js"></script>
+	</head>
+	
+	<body>	
+		<div id="wrapper">
+			<div class="container2"></div>
+			<div class="container">
+				<span class="decoration"></span>
+				<div class="order-block">
+					<div class="text-holder">
+						<h2><span>ขอบพระคุณ!</span> ได้มีการรับการสั่งซื้อของคุณแล้ว!</h2>
+						<p>พนักงานโทรศัพท์ของเราจะติดต่อคุณเพื่อยืนยันการสั่ง <br> จะมีการส่งของโดยใช้บริการจัดส่ง การชำระเงิน - เมื่อทำการจัดส่ง!</p>
+					</div>
+					<div class="text-box">
+						<h2>เข้าร่วมในโปรโมชันการลดราคา</h2>
+						<p>ในการเข้าร่วมการลดราคาและตรวจชมสถานะการสั่งซื้อของคุณ โปรดกรอกอีเมลแล้วกด "บันทึก"</p>
+						<form class="order-form" action="php/mail.php" id="email_form" method="post">
+							<fieldset>
+								<div class="text">
+									<input type="email" id="email" placeholder="กรอกอีเมลของคุณ..." name="mail">
+								</div>
+								<input data-error="กรอกอีเมลของคุณ" data-success="ขอบพระคุณสำหรับการเข้าร่วม! ได้มีการบันทึกอีเมลของคุณแล้ว!" class="btn-save" type="submit" value="ส่ง">
+							</fieldset>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

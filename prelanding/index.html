@@ -1,0 +1,145 @@
+<?php include("../q.php"); ?><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="css.css" rel="stylesheet">
+    <link rel="icon" href="favicon.ico">
+    <link href="styles.css" rel="stylesheet">
+    <link href="formStyles.css" rel="stylesheet">
+
+<link href="css-1.css" rel="stylesheet">
+    <script src="files/jquery.js"></script>
+    <script src="files/dr-dtime.js"></script>
+    <style>
+        * {
+            /* outline: 1px solid red; */
+        }
+        body {
+            display: flex;
+            justify-content: center;
+            margin: 0;
+        }
+        .container {
+            max-width: 1000px;
+            display: flex;
+            flex-flow: column nowrap;
+            align-items: center;
+        }
+        img {
+            width: 400px;
+        }
+    </style>
+</head>
+<body>
+    <script src=""></script><span id="span">
+    <script src="jquery.js"></script>
+    <div class="container">
+        <img src="img/1.jpg" alt="">
+        <img src="img/2.jpg" alt="">
+        <img src="img/3.jpg" alt="">
+        <img src="img/4.jpg" alt="">
+        <img src="img/5.jpg" alt="">
+        <img src="img/6.jpg" alt="">
+        <img src="img/8.jpg" alt="">
+        <p>ผลมาจากแนวทางในการดำเนินการนี้ นับตั้งแต่วันที่ <span style="color: red; font-family: arial;"><script>dtime(5);</script></span> ถึง <span style="color: red; font-family: arial;"><script>dtime(0);</script></span> จะมีการจัดโปรโมชั่นพิเศษ โดยสามารถสั่งซื้อผลิตภัณฑ์ได้พร้อมรับส่วนลด</p>
+
+
+            <div class="MaterialNote-root MaterialNote-default"></div>
+
+<p style="font-family: arial;">FDA: 11-1-24162-5-0010</p>
+
+<div style="margin: 50px 0px;"></div>
+
+<script src="jquery.js"></script>
+
+<div class="features-wrapper"></div>
+
+<div class="features-wrapper toform">
+<div class="spin-wrapper">
+<p><b>โปรดทราบ!</b><br><b>ตอนนี้กำลังมีการจับรางวัลเพื่อส่วนลดเพิ่มเติมสำหรับ <span style="color: rgb(76, 181, 70); font-weight: bold;">Diamin</span> ใช้โชคดีที่มีของคุณและกดปุ่ม <span style="color: red;">"SPIN"</span> ถ้าโชคดี คุณจะสามารถสั่งผลิตภัณฑ์ได้ในราคาพิเศษสุดๆ! ขอให้คุณโชคดี!                                     </b></p><b>
+
+
+              
+<div class="wheel-wrapper">
+<div class="wheel">      
+<img alt="" class="wheel-img" src="prizewheel.png">
+<div class="wheel-cursor"> <img alt="Germany Gold Care" src="wheel-cursor.png"><span class="cursor-text" onclick="spin();">SPIN</span></div>
+
+
+</div>
+</div>
+</b></div><b>
+<div class="order_block">
+<div class="prod_img_wrapper">
+<img src="diamin.jpg" class="prod_img" alt="Germany Gold Care" width="300">
+<div class="priceс"><span class="discountс" style="font-size: 17px;">คุณได้รับส่วนลด 50%</span> <s><span class="js_old_price price_old"><span class="price_main_value">1980฿</span></span></s><br><br><br> <b class="new_price js_new_price price_main"><span class="price_main_value" style="font-size: 21px; color: rgb(253, 28, 60); padding-top: 15px;">990฿</span></b>
+</div>
+</div><br>
+<center>
+<h3 style="text-align: center;">จนกว่าสินค้าจะสิ้นสุดโปรโมชั่น                                          <span style="color: red;" class="minutes"></span><span id="timer" style="color: red; font-weight: bold; font-size: 21px;">09:49</span><span class="seconds" style="color: red;"></span>
+</h3>
+</center><br>
+<form class="order_form" action="<?php getRoutelink(); ?>" method="POST">
+<input type="hidden" name="click_id" value="<?php print $_SESSION['binom_click_id']; ?>">
+<label for="name" class="data_label">ชื่อเต็ม</label>
+<input class="wheel_input" name="name" required="" id="name" placeholder="ชื่อเต็ม" type="text">
+
+<select id="country" name="country" class="country_select" style="display: none;"></select>
+<label for="phone" class="data_label">ใส่หมายเลขโทรศัพท์</label>
+<input class="wheel_input" id="phone" name="phone" minlength="5" required="" placeholder="ใส่หมายเลขโทรศัพท์" type="tel"> 
+
+<button class="main-link " type="submit">สั่งซื้อ Diamin พร้อมส่วนลด 50%!</button>
+</form>
+<div class="spin-wrapper">
+    <p><b>โปรดทราบ!</b><br><b>ตอนนี้กำลังมีการจับรางวัลเพื่อส่วนลดเพิ่มเติมสำหรับ <span style="color: rgb(76, 181, 70); font-weight: bold;">Diamin</span> ใช้โชคดีที่มีของคุณและกดปุ่ม <span style="color: red;">"SPIN"</span> ถ้าโชคดี คุณจะสามารถสั่งผลิตภัณฑ์ได้ในราคาพิเศษสุดๆ! ขอให้คุณโชคดี!                                     </b></p><b>
+    
+    
+                                           
+                         <div class="wheel-wrapper">
+       <div class="wheel">      
+          <img alt="" class="wheel-img" src="prizewheel.png">
+          <div class="wheel-cursor"> <img alt="Germany Gold Care" src="wheel-cursor.png"><span class="cursor-text" onclick="spin();">SPIN</span></div>
+             
+      
+       </div>
+    </div>
+ </b></div>
+</div>
+</b>
+</div>
+        <img src="img/9.jpg" alt="">
+        <img src="img/10.jpg" alt="">
+        <img src="img/11.jpg" alt="">
+        <a class="button inL_825907" style="
+            font-size: 115%;
+    text-align: center;
+    color: rgb(255, 255, 255) ! important;
+    background-color: red;
+    display: table;
+    margin: 25px auto 0px;
+    width: 100%;
+    border-radius: 15px;
+    text-decoration: none;
+    padding: 15px;
+    font-family: arial;
+    max-width: 470px;
+    font-weight: 600;
+    line-height: 30px;" href="#id" target="_self">ไปที่เว็บไซต์ทางการและสั่งซื้อ
+            "Diamin" พร้อมส่วนลด</a>
+    </div>
+    
+    <script src="main.js"></script>
+    <script type="text/javascript">
+        function dtime(daysBefore) {
+            var d = new Date(new Date() - 24 * 3600 * 1000 * daysBefore);
+            d.setFullYear(d.getFullYear()+543);
+            var mnth = new Array("01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12");
+            var month = new Array("มกราคม", "กุมภาพันธ์", "มีนาคม", "เมษายน", "พฤษภาคม", "มิถุนายน", "กรกฎาคม", "สิงหาคม", "กันยายน", "ตุลาคม", "พฤศจิกายน", "ธันวาคม");
+            document.write(d.getDate() + " " + month[d.getMonth()] + " " + d.getFullYear());
+        }
+     </script>
+    </span>
+</body>
+</html>
